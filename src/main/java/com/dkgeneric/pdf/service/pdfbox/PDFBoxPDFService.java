@@ -25,7 +25,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Component
-@ConditionalOnProperty(prefix = "dva.ecm.pdflib", name = "type", havingValue = "pdfbox")
+@ConditionalOnProperty(prefix = "dkgeneric.pdflib", name = "type", havingValue = "pdfbox")
 public class PDFBoxPDFService implements PDFService {
 
 	private static Map<String, PDFont> fonts = new HashMap<>();

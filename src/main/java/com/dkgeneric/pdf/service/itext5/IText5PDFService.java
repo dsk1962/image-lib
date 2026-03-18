@@ -32,7 +32,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Component
-@ConditionalOnProperty(prefix = "dva.ecm.pdflib", name = "type", havingValue = "itext5")
+@ConditionalOnProperty(prefix = "dkgeneric.pdflib", name = "type", havingValue = "itext5")
 public class IText5PDFService implements PDFService {
 
 	private static Map<String, FontFamily> fonts = new HashMap<>();

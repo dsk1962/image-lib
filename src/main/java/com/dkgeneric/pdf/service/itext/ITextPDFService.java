@@ -40,7 +40,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Component
-@ConditionalOnProperty(name = "dva.ecm.pdflib.type", havingValue = "itext7")
+@ConditionalOnProperty(name = "dkgeneric.pdflib.type", havingValue = "itext7")
 
 public class ITextPDFService implements PDFService {
 
